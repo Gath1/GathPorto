@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VORSkins</title>
+    <link rel="stylesheet" href="Aset/subs.css">
+    <script defer src="subs.js"></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <form>
+        <h3>Subscribtion Form</h3>
+            <div>
+                <input class="" name="name" placeholder="Name">
+                <div class="error hidden">Please enter a name</div>
+            </div>
+            
+            <div>
+                <input name="email" placeholder="Email">
+                <div class="error hidden">Please enter an email address</div>
+            </div>
+            
+            <div>
+                <input name="phone" placeholder="Phone" minlength="10">
+                <div class="error hidden">Please enter a phone number</div>
+            </div>
+            <div>
+                <select name="preference" id="preference" onchange="pref()">
+                    <option value=" " disabled selected>Preferences</option>
+                    <option value="sc">Skin Care</option>
+                    <option value="bc">Body Care</option>
+                </select> 
+                <div class="error hidden">Please select a preference</div>
+            </div>
+            
+            <div>
+                <input id="agreement" type="checkbox" name="agreement">
+                <div class="error hidden">Please check the box </div>
+            </div>
+
+            <label for="agreement">
+                Agree to receive newlatter
+            </label><br>
+
+                <button>
+                    Subscribe
+                </button>
+            
+        </form>
+        <div class="ty hidden">
+            Thank you for subscribing!!
+        </div>
+    </div>
+
+</body>
+</html>

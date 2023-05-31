@@ -1,0 +1,179 @@
+html {
+    height: 1675px;
+    weight: 1518px;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Medium.ttf);
+}
+
+#banner {
+    position: absolute;
+    width: 1518px;
+    height: 1339px;
+    left: 0px;
+    top: 0px;
+
+    background: #8ECCC9;
+}
+
+#header {
+    position: absolute;
+    width: 1518px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+        
+    background: #E1FFFE;
+}
+
+a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    
+    color: #870262; 
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+    position: absolute;
+    width: 1120.2px;
+    height: 10px;
+    left: 80.3px;
+    top: 25px;
+}
+    
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+.skincare {
+    position: flex;
+    width: 276px;
+    height: 60px;
+    left: 136px;
+    top: 167px;
+
+    font-family: 'Quando';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #A80D7C;
+
+    /* Kotaknya */
+    position: absolute;
+    width: 340px;
+    height: 60px;
+    left: 90px;
+    top: 167px;
+
+    background: #FFDCDC;
+    border-radius: 30px;
+}
+
+.produksc {
+    position: absolute;
+    width: 316px;
+    height: 417px;
+    left: 0px;
+    top: 262px;
+}
+
+.bodycare {
+    position: flex;
+    width: 276px;
+    height: 60px;
+    left: 136px;
+    top: 167px;
+    
+    font-family: 'Quando';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #A80D7C;
+
+    /* Kotaknya */
+    position: absolute;
+    width: 340px;
+    height: 60px;
+    left: 90px;
+    top: 745px;
+    
+    background: #FFDCDC;
+    border-radius: 30px;
+}
+
+.produkbc {
+    position: absolute;
+    width: 316px;
+    height: 417px;
+    left: 0px;
+    top: 262px;
+}
+
+#menufooter {
+    position: absolute;
+    width: 1227px;
+    height: 200px;
+    left: 287px;
+    top: 10px;
+}
+
+#sosmed {
+    position: absolute;
+    width: 354px;
+    height: 41px;
+    left: 600px;
+    top: 90px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    
+    color: #000000;
+}
+
+.sosmedpic {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 650px;
+    top: 150px;    
+}
+
+.logo {
+    position: absolute;
+    width: 215px;
+    height: 70px;
+    left: 1300px;
+    top: 265px;
+}
+
+#footer {
+    position: absolute;
+    width: 1518px;
+    height: 336px;
+    left: 0px;
+    top: 1339px;
+
+    background: #F1D1D1;
+}

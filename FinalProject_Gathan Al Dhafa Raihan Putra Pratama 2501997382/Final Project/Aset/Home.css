@@ -1,0 +1,218 @@
+
+html {
+    height: 1675px;
+    weight: 1518px;
+    widht: 964px;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Medium.ttf);
+}
+
+#banner {
+    position: absolute;
+    width: 1518px;
+    height: 674px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(118, 193, 189, 0.82);
+}
+
+#header {
+    position: absolute;
+    width: 1518px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+    
+    background: #E1FFFE;}
+
+a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    
+    color: #870262; 
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    position: absolute;
+    width: 1120.2px;
+    height: 10px;
+    left: 80.3px;
+    top: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+#makeup {
+    position: absolute;
+    width: 348px;
+    height: 86px;
+    left: 170px;
+    top: 240px;
+
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 78.02px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.btn {
+    
+    position: absolute;
+    width: 340px;
+    height: 63px;
+    left: 150px;
+    top: -630px;
+
+    text-align: center;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 10px;
+    cursor: pointer;
+    margin : 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #F57B7B;
+}
+
+ .btn1 {
+    color:rgba(255, 255, 255, 0.82);
+}
+
+.btn1:hover {
+    background-color: #FEF5E9;
+    color: #b10d0d;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #000000
+    z-index: -1;
+    transition: 0.8s;
+} 
+
+.btn1::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+} 
+
+.btn1:hover::before {
+    height: 180%; 
+}
+
+#mid {position: absolute;
+    width: 1518px;
+    height: 665px;
+    left: 0px;
+    top: 674px;
+    
+    background: #FFFFFF;}
+
+.produk1 {
+    position: absolute;
+    width: 272.42px;
+    height: 434px;
+    left: 195px;
+    top: 102px;}
+
+.produk2 {
+    position: absolute;
+    width: 272.42px;
+    height: 434px;
+    left: 618.29px;
+    top: 102px;
+    }
+
+.produk3 {
+    position: absolute;
+    width: 272.42px;
+    height: 434px;
+    left: 1041.58px;
+    top: 102px;
+}
+
+#menufooter {
+    position: absolute;
+    width: 1227px;
+    height: 200px;
+    left: 287px;
+    top: 10px;
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+#sosmed {
+    position: absolute;
+    width: 354px;
+    height: 41px;
+    left: 600px;
+    top: 90px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    
+    color: #870262;
+}
+
+.sosmedpic {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 650px;
+    top: 150px;    
+}
+
+.logo {
+    position: absolute;
+    width: 215px;
+    height: 70px;
+    left: 1300px;
+    top: 265px;
+}
+
+#footer {
+    position: absolute;
+    width: 1518px;
+    height: 336px;
+    left: 0px;
+    top: 1339px;
+
+    background: #F1D1D1;
+}
+
