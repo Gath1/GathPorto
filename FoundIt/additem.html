@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="GlobalStyle.css">
+    <title>Add Item</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="font-bold p-10 grid grid-cols-3">
+        <img src="Asets/Found It!.png" alt="logo" class="w-44 h-auto">
+        <nav>
+            <div class="">
+                <a href="home.html" class="pr-10 pl-3 nav-link text-black hover:text-black">Home</a>
+                <a href="found.html" class="pl-10 pr-10 nav-link text-gray-600 hover:text-black">Found</a>
+                <a href="history.html" class="pl-10 pr-10 nav-link text-gray-600 hover:text-black">History</a>
+                <a href="profile.html" class="pl-10 nav-link text-gray-600 hover:text-black">Profile</a>
+            </div>
+        </nav>
+        <div class="flex justify-end items-start">
+            <a href="Login.html">
+                <img src="Asets/Logout.png" alt="logout" class="w-6 h-auto">
+            </a>
+        </div>
+    </div>
+    <!-- Notification Bar -->
+    <div class="top-side flex justify-center items-center pb-10">
+        <div class="notifbar bg-white rounded-3xl py-3 px-6 flex items-center justify-between w-2/6">
+            <img src="Asets/notification.png" alt="notif" class="order-first">
+            <span class="text-gray-600">No Notifications Yet</span>
+            <img src="Asets/caret_down.png" alt="downbar" class="order-last">
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div id="form1" class="flex justify-center">
+        <div class="max-width-5xl">
+            <div class="card pt-10 pb-4 pl-10 pr-10 mb-20 rounded-3xl bg-white shadow-xl">
+                <h1 class="text-2xl font-bold mb-6 text-center">Lost Item Data</h1>
+                <div>
+                    <div class="flex mb-6">
+                        <label for="UserID" class="text-lg inline-block w-96 pt-3">UserID</label>
+                        <input type="text"
+                            class="border border-gray-300 rounded-lg w-full px-4 py-2 mt-2 focus:outline-none focus:ring-2 focus:ring-black focus:border-black ">
+                    </div>
+                    <div class="flex mb-6">
+                        <label for="name" class="text-lg inline-block w-96 pt-3">Name</label>
+                        <input type="text"
+                            class="border border-gray-300 rounded-lg w-full px-4 py-2 mt-2 focus:outline-none focus:ring-2 focus:ring-black focus:border-black">
+                    </div>
+                    <div class="flex mb-6">
+                        <label for="type" class="text-lg inline-block w-56 pt-3 mr-2">Type</label>
+                        <div x-data="{ open: false }" class="relative inline-block">
+                            <button @click="open = !open; $event.preventDefault();"
+                                class="bg-white flex items-center justify-end border border-gray-300 rounded-lg flex-1 w-96 h-10 px-4 py-2 mt-2 focus:outline-none focus:shadow-outline">
+                                <img src="Asets/caret_down.png" alt="arrow">
+                            </button>
+                            <div x-show="open" @click.away="open = false"
+                                class="absolute bg-white text-gray-700 py-2 w-56 shadow-lg mt-2">
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Option 1</a>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Option 2</a>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Option 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex mb-6">
+                        <label for="description" class="text-lg inline-block w-96 pt-3">Description</label>
+                        <input type="text"
+                            class="border border-gray-300 rounded-lg w-full px-4 py-2 mt-2 focus:outline-none focus:ring-2 focus:ring-black focus:border-black">
+                    </div>
+                    <div class="flex mb-6">
+                        <label for="last-location" class="text-lg inline-block w-96 pt-3">Last Location</label>
+                        <input type="text"
+                            class="border border-gray-300 rounded-lg w-full px-4 py-2 mt-2 focus:outline-none focus:ring-2 focus:ring-black focus:border-black">
+                    </div>
+                    <div class="flex item-center justify-center m-5">
+                        <button class="rounded-xl w-72 h-10 bg-orange-200  text-center">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Include Alpine.js -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-4 bottom-0 w-full">
+        <div class="container mx-auto px-4 flex justify-between items-start max-width: 900px">
+            <div class="text-left m-5">
+                <div class="logo mb-5">
+                    <img src="Asets/Found It!.png" alt="Logo" class="h-6">
+                </div>
+                <p class="text-gray-600">Office: +62 566 5262</p>
+                <p class="text-gray-600">Contact Center: +62 2927 8888</p>
+                <p class="text-gray-600">Fax: +62 567 1413</p>
+                <p class="text-gray-600">Email: Customercare@jne.co.id</p>
+            </div>
+            <div class="text-right m-7 flex flex-col justify-between">
+                <div>
+                    <p class="text-black-600 font-bold mb-3">Head Office</p>
+                    <p class="text-black-600">Jl. Tomang Raya No. 11</p>
+                    <p class="text-black-600">PT. FoundIt</p>
+                    <p class="text-black-600">Jakarta Barat 11440</p>
+                    <p class="text-black-600">Indonesia</p>
+                </div>
+                <div class="flex-grow"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

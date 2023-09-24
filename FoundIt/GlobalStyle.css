@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Poppins:wght@700&display=swap');
+
+@font-face {
+    font-family: "Nunito";
+    src: url(Font/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(Font/Poppins-Regular.ttf);
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #a8ddc3;
+}
+
+/* #header {
+    display: flex;
+    margin: 1%;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#logo {
+    max-width: 150px;
+    height: auto;
+}
+
+nav {
+    display: inline-block;
+}
+
+#menu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+
+    display: inline-block;
+    margin: 0 30px;
+}
+
+#menu ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    color: #666666;
+    padding: 5px 10px;
+}
+
+#menu ul li a:hover {
+    color: #333;
+}
+
+#menu ul li.active a {
+    color: #333;
+}
+
+#SignOut {
+    position: absolute;
+    margin-left: 20%;
+    text-decoration: none;
+    color: #333;
+}
+
+#SignOut:hover {
+    color: #ff0000;
+} */
+
+.top-side {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: px; */
+    /* height: 100px; */
+}
+
+/* .notifbar {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 525px;
+    width: 525px;
+    padding: 10px 0 10px 0;
+
+    font-family: Poppins;
+    font-weight: 500;
+    margin-bottom: 50px;
+} */
+
+/* #form1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 2%;
+    margin-bottom: 45px;
+    max-width: 75%;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+} */
+
+/* #title ul li {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+} */

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="GlobalStyle.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Poppins:wght@700&display=swap');
+
+    @font-face {
+        font-family: "Nunito";
+        src: url(Font/Nunito-Regular.ttf);  
+    }
+
+    @font-face {
+        font-family: "Poppins";
+        src: url(Font/Poppins-Regular.ttf);
+    }   
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins";
+    }
+
+    body {
+        background-color: #a8ddc3;
+    }
+
+    </style>
+</head>
+
+<body class="">
+    <div class="flex items-center justify-center mt-48">
+        <div id="form1" class="w-1/4">
+            <div class="bg-white rounded-3xl shadow-lg p-10">
+                <h1 class="mb-4 text-2xl flex justify-center font-bold">Sign In</h1>
+                <h6 class="mb-6 text-xs text-center">Hey, enter your details to get sign in to your account</h6>
+                <div class="space-y-4">
+                    <input type="text" id="usernametxt" placeholder="Username"
+                        class="border border-gray-400 rounded-xl px-4 py-2 w-full">
+                    <input id="passwordtxt" type="password" placeholder="Password"
+                        class="border border-gray-400 rounded-xl px-4 py-2 w-full">
+                    <button id="loginbtn" onclick="window.location.href='home.html'"
+                        class="bg-orange-200 hover:bg-orange-400 text-bold rounded-xl px-4 py-2 w-full">Login</button>
+                    <div class="text-center">
+                        <label id="label1" class="text-xs">Don't have an account?</label>
+                        <button id="signupbtn" onclick="window.location.href='signup.html'"
+                            class="text-xs text-bold">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
